@@ -22,7 +22,7 @@ By running script `run_debugging.sh`, it will set the expect output from nullnes
 
 You may notice that the produced minimized test case still contains some un-related code to the interesting code segment, an can be further minimized. Generally this would also happens when running our tool on real project, as essentially delta debugging would only gives you a local minimized test case, not the global minimized one. Also, since we mutated files on line-level instead of on AST level, which cause the local minimized test case becomes even more coarse.
 
-However, this tool still can help you find the one or two files that contains the interesting segment from hundreds source files in a given project, and then try to reduce the size those interesting files (real experience would generally reduce a 1000+ LoC file to around 100+,sometimes just 10+ lines).
+However, this tool still can help you find the one or two files that contains the interesting segment from hundreds source files in a given project, and then try to reduce the size of those interesting files (my own experience of running it on real projects  would generally reduce a 1000+ LoC file to around 100+,sometimes just 10+ lines).
 
 
 ## How to run the demo
