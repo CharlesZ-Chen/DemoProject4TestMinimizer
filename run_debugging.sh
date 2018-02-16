@@ -9,7 +9,7 @@ debugged_tool="check"
 checker="org.checkerframework.checker.nullness.NullnessChecker"
 
 if [ ! -d "../do-like-javac" ] ; then
-    (cd ../ && git clone -b opprop-infer-debug https://github.com/opprop/do-like-javac.git)
+    (cd ../ && git clone https://github.com/opprop/do-like-javac.git)
 fi
 
 DLJC="../do-like-javac"
