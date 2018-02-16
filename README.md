@@ -1,5 +1,5 @@
 # DemoProject4TestMinimizer
-Foo Project for demo [delta debugger for CF and CFI](https://github.com/opprop/do-like-javac/tree/opprop-infer-debug).
+Foo Project for demo [delta debugger for CF and CFI](https://github.com/opprop/do-like-javac/pull/4).
 
 ## What it demos
 In src/C.java, it contains below code that is obiviously a dereference null-pointer bug:
