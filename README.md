@@ -1,6 +1,6 @@
 # DemoProject4TestMinimizer
 
-This project contains two demo project for [delta debugger for CF and CFI](https://github.com/opprop/do-like-javac/pull/4).
+This project contains two demo projects for [delta debugger for CF and CFI](https://github.com/opprop/do-like-javac/pull/4).
 
 Projects:
 
