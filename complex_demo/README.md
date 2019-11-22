@@ -4,7 +4,7 @@ A complex demo for [delta debugger for CF and CFI](https://github.com/opprop/do-
 
 ## What it demos
 
-This project includes the java source code which is annotated with nullness checker.
+This project includes the java source code `Class.java` which is annotated with nullness checker.
 During the type-checking, the program will crash due to two errors in `AsSuperVisitor`.
 Errors can be reproduced by a specify version of checker-framework: [aa6b5eea60](https://github.com/xingweitian/checker-framework/tree/aa6b5eea601369bcfc58c1cfa1e66ee8a834f4e0).
 
