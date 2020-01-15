@@ -8,11 +8,11 @@ debugged_tool="check"
 
 checker="org.checkerframework.checker.nullness.NullnessChecker"
 
-if [ ! -d "../do-like-javac" ] ; then
-    (cd ../ && git clone https://github.com/opprop/do-like-javac.git)
+if [ ! -d "../../do-like-javac" ] ; then
+    (cd ../../ && git clone https://github.com/opprop/do-like-javac.git)
 fi
 
-DLJC="../do-like-javac"
+DLJC="../../do-like-javac"
 
 #parsing build command of the target program
 build_cmd=ant
